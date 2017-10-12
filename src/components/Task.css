@@ -1,0 +1,29 @@
+.task {
+    background-color: #FFF;
+    border-radius: 3px;
+    height: 200px;
+    width: 100%;
+    padding: 1em;
+    margin: .5em 0;
+}
+
+.textarea-container {
+    width: calc(100% - 3em);
+    height: 100%;
+    margin: 0 auto;
+}
+
+.textarea-task {
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.reorder {
+    cursor: row-resize;
+}
+
